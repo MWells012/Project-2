@@ -27,14 +27,18 @@ By signing up or logging in, you can create or modify workouts and review what y
 
     ```
     1. clone the repository using https or SSH
-    2. run npm i
+    2. add a .env file with the following set-up
+    - DB_NAME='fitnessTracker_db'
+    - DB_USER='root'
+    - DB_PASSWORD='*this needs to be your password for mysql*'
+    3. run npm i
     ```
 * open mysql2 by using: mysql -u root -p
 
     ```
     1. enter your SQL password
     2. input source db/schema.sql
-    3. use ecommerce_db
+    3. input use fitnessTracker_db
     ```
 
 * Exit mysql by running "quit", then enter:
@@ -77,6 +81,6 @@ By signing up or logging in, you can create or modify workouts and review what y
 This application was developed and deployed by:
 
 - Lauren Cvengros [l.cvengros@icloud.com]
-- Michaela Wells []
+- Michaela Wells [mgwells012@gmail.com]
 - Kelsie Szost [owner@kelsieszost.design]
-- Ashley Szpanelewski [ashleyszp@gmail.com]# Project-2
+- Ashley Szpanelewski [ashleyszp@gmail.com]
